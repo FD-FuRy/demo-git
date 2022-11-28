@@ -6,6 +6,8 @@ public class Employe {
     private String nom;
     private String email;
 
+    private String username;
+
     public Employe(long id, String prenom, String nom, String email) {
         this.id = id;
         this.prenom = prenom;
